@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.main-cont {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, .75)), url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2d86bb166809064181470_hero-bg.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  height: 82vh;
+  margin-bottom: 3rem;
+}
+
+.nav-bar { 
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2.8em;
+}
+
+.nav-logo {
+  margin-left: 8.3em;
+}
+
+.top-links {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  margin-right: 10em;
+}
+
+.top-links > a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  margin: 0 0.2em;
+  transition: color 500ms;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.top-links > a:hover {
+  color: #0082f3;
+}
+
+.header-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30em;
+  margin-top: 4em;
+  
+}
+
+.h1-cont {
+color: white;
+font-size: 58px;
+line-height: 1.5;
+font-weight: lighter;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1-p-cont {
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  width: 48%;
+  line-height: 1.5;
+  margin-top: 0.7em;
+}
+
+.header-btm-cont {
+  margin-top: 2em;
+}
+
+.header-btm {
+  margin: 10px;
+  padding: 10px 30px;
+  border: 1px solid #4d8bf5;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 500ms;
+}
+
+.header-btm:hover {
+  background-color: #4d8bf5;
+}
+
+.chevron {
+  color: white;
+  padding-top: 1em;
+  position: relative;
+  top: 12em;
+}
+
+.chevron > a {
+  color: white;
+}
+
+.about-cont {
+ font-family: 'Nunito', sans-serif;
+ padding-top: 3em;
+ text-align: center;
+ font-size: 28px;
+ font-weight: 700;
+ margin: 1em 370px;
+}
+
+.about-header {
+  margin-bottom: 0.5em;
+}
+
+.about-sub {
+  color: #5c5c5c;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sub-line {
+  border-bottom: 2px solid #4d8cf5;
+  width: 7%;
+  margin: auto;
+
+}
+
+.about-grid {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-top: 1.3em;
+}
+
+.about-p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+    width: 86%;
+}
+
+.port-cont{
+  font-family: 'Nunito', sans-serif;
+  padding-top: 3em;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.port-header {
+  margin-bottom: 0.5em;
+
+}
+
+.port-sub {
+  color: #5c5c5c;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.port-grid {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.3em;
+  flex-wrap: wrap;
+}
+
+
+.img-1 {
+  background: url("Images/1.jpg") center no-repeat;
+}
+
+.img-2 {
+  background: url("Images/2.jpg") center no-repeat;
+}
+
+.img-3 {
+  background: url("Images/3.jpg") center no-repeat;
+}
+
+.img-4 {
+  background: url("Images/4.jpg") center no-repeat;
+}
+
+.img-5 {
+  background: url("Images/5.jpg") center no-repeat;
+}
+
+.img-6 {
+  background: url("Images/6.jpg") center no-repeat;
+}
+
+.img-7 {
+  background: url("Images/7.jpg") center no-repeat;
+}
+
+.img-8 {
+  background: url("Images/8.jpg") center no-repeat;
+}
+
+.port-grid > span {
+  width: 475px;
+  height: 316px;
+}
+
+.img-filter {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: background-color 700ms, color 1200ms, line-height 1200ms;
+  color: transparent;
+  line-height: 20;
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.img-filter:hover {
+  background-color: #4586f1cc;
+  color: white;
+  line-height: 15;
+}
+
