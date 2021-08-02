@@ -2,6 +2,8 @@
 
   Krunch website clone. Non responsive and only for destkop screens
 
+  ![screenshot](screenshot.png)
+
 
 ## Built With
 
@@ -10,7 +12,7 @@
 
 ## Live Demo
 
-[Heroku](https://book-store-8bts.herokuapp.com)
+[Heroku](https://rawcdn.githack.com/FuadNabi/Krunch-clone/59243e7a4d4dc64c651914aa2db3dddc0e61a9da/index.html)
 
 ## Setup
 
