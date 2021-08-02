@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Heroku](https://rawcdn.githack.com/FuadNabi/Krunch-clone/59243e7a4d4dc64c651914aa2db3dddc0e61a9da/index.html)
+[Githack Link](https://rawcdn.githack.com/FuadNabi/Krunch-clone/ba7c2c71d98270bded1f7a2cbb8bd09a487f8f3a/index.html)
 
 ## Setup
 
