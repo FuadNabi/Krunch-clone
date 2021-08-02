@@ -220,8 +220,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .port-grid > span {
-  width: 315px;
-  height: 211px;
+  width: 25%;
 }
 
 .img-filter {
@@ -239,7 +238,6 @@ font-family: Arial, Helvetica, sans-serif;
 .img-filter:hover {
   background-color: #4586f1cc;
   color: white;
-  line-height: 11;
 }
 
 .contact-1 {
