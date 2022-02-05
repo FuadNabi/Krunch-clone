@@ -25,3 +25,4 @@ viewFeaturesdBtn.onclick = () => {
 
 }
 
+console.log('Salam')
