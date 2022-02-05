@@ -1,17 +1,27 @@
-const downloadBtm = document.querySelector('.header-btm');
+const downloadBtn = document.getElementById('downloadBtn');
+const viewFeaturesdBtn = document.getElementById('viewFeaturesBtn');
 let toggle = "deqiq-olsun";
 
 
 
-downloadBtm.onclick = () => {
-  alert(toggle)
-
+downloadBtn.onclick = () => {
   if ( toggle == "deqiq-olsun" ) {
-    downloadBtm.style.backgroundColor = 'red';
+    downloadBtn.style.backgroundColor = 'red';
     toggle = "onda-iiiii"
   } else {
-    downloadBtm.style.backgroundColor = 'green';
+    downloadBtn.style.backgroundColor = 'green';
     toggle = "deqiq-olsun"
   }
+}
+
+viewFeaturesdBtn.onclick = () => {
+  if ( toggle == "deqiq-olsun" ) {
+    viewFeaturesdBtn.style.backgroundColor = 'orange';
+    toggle = "onda-iiiii"
+  } else {
+    viewFeaturesdBtn.style.backgroundColor = 'purple';
+    toggle = "deqiq-olsun"
+  }
+
 }
 
