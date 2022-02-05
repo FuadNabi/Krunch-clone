@@ -16,7 +16,7 @@ downloadBtn.onclick = () => {
 
 viewFeaturesdBtn.onclick = () => {
   if ( toggle == "deqiq-olsun" ) {
-    viewFeaturesdBtn.style.backgroundColor = 'blue';
+    viewFeaturesdBtn.style.backgroundColor = 'orange';
     toggle = "onda-iiiii"
   } else {
     viewFeaturesdBtn.style.backgroundColor = 'purple';
